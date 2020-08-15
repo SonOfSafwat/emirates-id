@@ -1,6 +1,8 @@
-# LitElement TypeScript starter
+# Emirates Id Web Component WIP
 
-This project includes a sample component using LitElement with TypeScript.
+This project is built using LitElement Typescript starter. 
+This project is still a work in progress.
+Emirates Id is a unique identitifier for all citizens/residents of the United Arab Emirates.
 
 ## Setup
 
@@ -107,7 +109,3 @@ npm run docs:watch
 ```
 
 The site will usually be served at http://localhost:8000.
-
-## More information
-
-See [Get started](https://lit-element.polymer-project.org/guide/start) on the LitElement site for more information.

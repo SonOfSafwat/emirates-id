@@ -1,0 +1,55 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "emirates-id",
+      "path": "./src/emirates-id.ts",
+      "description": "Emirates Id Element",
+      "attributes": [
+        {
+          "name": "value",
+          "type": "string",
+          "default": "\"784\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "maskOptions",
+          "type": "{ mask: string; }",
+          "default": "{\"mask\":\"{784}-0000-0000000-0\"}"
+        },
+        {
+          "name": "mask",
+          "type": "InputMask<{ mask: string; }>",
+          "default": "\"IMask(this, this.maskOptions)\""
+        },
+        {
+          "name": "value",
+          "attribute": "value",
+          "type": "string",
+          "default": "\"784\""
+        },
+        {
+          "name": "separator",
+          "type": "TemplateResult"
+        },
+        {
+          "name": "uaeISO3166Numeric",
+          "type": "TemplateResult"
+        },
+        {
+          "name": "year",
+          "type": "TemplateResult"
+        },
+        {
+          "name": "randomNumber",
+          "type": "TemplateResult"
+        },
+        {
+          "name": "checkDigit",
+          "type": "TemplateResult"
+        }
+      ]
+    }
+  ]
+}
